@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://unpkg.com/reset-css@5.0.1/reset.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Add Activity</title>
 </head>
-<body>
-    
+<body style="background-color: rgb(18, 18, 18);">
+    <h1>ACTIVITY</h1>
+    <div class="container-fluid label-input">
+    <label>Activity Name</label>
+        <input id="acc-name" name="acc-name" type="text" placeholder="(Ex.Walking Routine)" required/>
+        </div>
+        <div class="container-fluid label-input">
+            <label>Description</label>
+                <input id="description" name="description" type="text" placeholder="(Ex.Morning Walking Routine)"/>
+        </div>
+    <div class="container-fluid label-select">
+        <label>Types of Activity</label>
+        <select name="Types">
+        <option value="Running"> Running </option>
+        <option value="Walking"> Walking </option>
+        <option value="Swimming"> Swimming </option>
+        <option value="Biking"> Biking </option>
+        <option value="Hiking"> Hiking </option>
+        </select>
+    </div>
+    <div class="container-fluid label-input">
+        <label>Time </label>
+<input id="time" type="time" name="time" value="hh:mm"> <a href="#" class="button-am">AM</a> <a href="#" class="button-pm">PM</a>
+        </div>
+        <div class="container-fluid label-input">
+            <label>Date</label>
+            <input id="date" name="date" type="date" placeholder="dd-mm-yyyy" required/>
+        </div>
+        <div class="end-button">
+        <input class="back-button"
+       type="button"
+       value="Back">
+       <input class="next-button"
+       type="button"
+       value="Confirmed">
+       </div>
 </body>
 </html>
