@@ -3,6 +3,18 @@ h1{ text-align: center;
     font-family:Times New Roman;
     color:rgb(255, 255, 255)
 }
+.content{
+    margin-top: 30px;
+}
+select{
+    width: 240px;
+}
+#time{
+    width: 190px;
+}
+#date {
+    width: 350px;
+}
 label{ display: flex; justify-content: center;
     margin: auto;
     text-align: center;
@@ -10,11 +22,14 @@ label{ display: flex; justify-content: center;
     color:rgb(255, 255, 255)
 }
 .label-input{margin: auto;
+    margin-bottom: 30px;
     width:fit-content;
     border:2px solid rgb(156, 166, 255);
+    border-radius: 7%;
 }
 .label-select{ display: flex; justify-content: center;
     margin: auto;
+    margin-bottom: 30px;
     width:fit-content;
     border:2px solid rgb(156, 166, 255);
 }
