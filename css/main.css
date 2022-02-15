@@ -45,6 +45,17 @@ body {
   }
 .content{
     margin-top: 30px;
+    border-radius: 25px;
+    width: 600px;
+    padding: 32px 0px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+}
+.boxed{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .content-box{
     display: flex;
@@ -72,7 +83,7 @@ label{ display: flex;
     justify-content: center;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
-    color:rgb(255, 255, 255)
+    color:rgb(0, 0, 0)
 }
 .label-input{display: flex;
     margin-bottom: 30px;
@@ -91,7 +102,7 @@ label{ display: flex;
 	border-radius:15px;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#000000;
 	font-family: 'Bebas Neue', cursive;
 	font-size:17px;
 	padding:7px 25px;
@@ -113,7 +124,7 @@ label{ display: flex;
 	border-radius:15px;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#000000;
 	font-family: 'Bebas Neue', cursive;
 	font-size:17px;
 	padding:7px 25px;
@@ -156,4 +167,5 @@ label{ display: flex;
 .end-button{ display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 30px;
 }
