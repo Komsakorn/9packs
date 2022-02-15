@@ -1,8 +1,8 @@
 /* 
 ** The Header Media Queries **
-** Tweak as per your needs **
 */
 .brand {
+  font-family: 'Bebas Neue', cursive;
   font-weight: bold;
   font-size: 60px;
   padding-left: 200px;
@@ -10,7 +10,7 @@
 }
 @media (max-width: 679px) {
   .brand {
-    padding-left: 90px;
+    padding-left: 110px;
     } }
 
 .site-header {

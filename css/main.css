@@ -50,6 +50,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 #profile{ 
     width: 50px;
@@ -58,14 +59,15 @@ body {
     width: 100px;
 }
 select{
-    width: 240px;
+    width: 320px;
 }
 #time{
-    width: 190px;
+    width: 260px;
 }
 #date {
-    width: 350px;
+    width: 400px;
 }
+
 label{ display: flex; 
     justify-content: center;
     text-align: center;
