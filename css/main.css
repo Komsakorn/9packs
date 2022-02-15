@@ -1,6 +1,9 @@
 html {
     height: 100%;
 }
+#profile{ 
+    width: 50px;
+}
 body {
     height: 100%;
     margin: 0;
@@ -61,22 +64,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#description{ width: 363px;
 
 }
-#profile{ 
-    width: 50px;
-}
 #type-label{
-    width: 100px;
+    width: 105px;
 }
 select{
     width: 320px;
 }
 #time{
-    width: 260px;
+    width: 270px;
 }
 #date {
-    width: 400px;
+    width: 402px;
 }
 
 label{ display: flex; 
@@ -88,14 +90,20 @@ label{ display: flex;
 .label-input{display: flex;
     margin-bottom: 30px;
     width:fit-content;
-    border:2px solid rgb(156, 166, 255);
+    border:2px solid rgb(0, 0, 0);
     border-radius: 7%;
 }
 .label-select{ display: flex; 
     justify-content: center;
     margin-bottom: 30px;
     width:fit-content;
-    border:2px solid rgb(156, 166, 255);
+    border:2px solid rgb(0, 0, 0);
+}
+input{
+    margin-left: 30px;
+}
+select{
+    margin-left: 30px;
 }
 .button-am {
 	background-color:#ededed 5%;
@@ -142,7 +150,7 @@ label{ display: flex;
 	background-color:rgb(99, 99, 102);
 }
 .next-button {
-    border:2px solid rgb(156, 166, 255);
+    border:2px solid rgb(0, 0, 0);
     line-height: 2.5;
     padding: 0 20px;
     font-size: 1rem;
