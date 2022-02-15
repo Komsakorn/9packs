@@ -9,11 +9,51 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Add Activity</title>
 </head>
-<body style="background-color: rgb(18, 18, 18);">
-    <h1>ACTIVITY</h1>
+<header class="site-header">
+    <div class="wrapper site-header__wrapper">
+        <div class="site-header__start">
+          <nav class="nav">
+            <button class="nav__toggle" aria-expanded="false" type="button">
+              menu
+            </button>
+            <ul class="nav__wrapper">
+              <li class="nav__item"><a href="#">Home</a></li>
+              <li class="nav__item"><a href="#">About</a></li>
+              <li class="nav__item"><a href="#">Services</a></li>
+              <li class="nav__item"><a href="#">Hire us</a></li>
+              <li class="nav__item"><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <a href="#" class="brand">9pack</a>
+          <div class="search">
+            <button class="search__toggle" aria-label="Open search">
+              Search
+            </button>
+            <form class="search__form" action="">
+              <label class="sr-only" for="search">Search</label>
+              <input
+                type="search"
+                name=""
+                id="search"
+                placeholder="What's on your mind?"
+              />
+            </form>
+          </div>
+        </div>
+        <div class="site-header__end">
+          <img id="proflie" src="./image/966-9665493_my-profile-icon-blank-profile-image-circle.png" width="50px">
+        </div>
+      </div>
+    </header>
+    <script src="./js/header-13.js"></script>
+<body style="background:linear-gradient(to bottom, rgba(117 33 255) 5%, #ededed 100%);">
+    <h1 class="title">ADD ACTIVITY</h1> <a href="#" class="close"></a>
     <div class="content">
+      <div class="content-box">
         <div class="container-fluid label-input">
     <label>Activity Name</label>
         <input id="acc-name" name="acc-name" type="text" placeholder="(Ex.Walking Routine)" size="45" required/>
@@ -41,13 +81,11 @@
             <input id="date" name="date" type="date" placeholder="dd-mm-yyyy" required/>
         </div>
         <div class="end-button">
-        <input class="back-button"
-       type="button"
-       value="Back">
        <input class="next-button"
        type="button"
-       value="Confirmed">
+       value="Save">
        </div>
-       </div>>
+       </div>
+      </div>
 </body>
 </html>
