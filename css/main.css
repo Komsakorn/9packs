@@ -1,10 +1,13 @@
 h1{ text-align: center;
-    font-size: x-large;
-    font-family:Times New Roman;
+    font-size: xx-large;
+    font-family: 'Bebas Neue', cursive;
     color:rgb(255, 255, 255)
 }
 .content{
     margin-top: 30px;
+}
+#type-label{
+    width: 100px;
 }
 select{
     width: 240px;
@@ -18,7 +21,7 @@ select{
 label{ display: flex; justify-content: center;
     margin: auto;
     text-align: center;
-    font-family:Times New Roman;
+    font-family: 'Bebas Neue', cursive;
     color:rgb(255, 255, 255)
 }
 .label-input{margin: auto;
@@ -39,7 +42,7 @@ label{ display: flex; justify-content: center;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Times New Roman;
+	font-family: 'Bebas Neue', cursive;
 	font-size:17px;
 	padding:7px 25px;
 	text-decoration:none;
@@ -61,7 +64,7 @@ label{ display: flex; justify-content: center;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Times New Roman;
+	font-family: 'Bebas Neue', cursive;
 	font-size:17px;
 	padding:7px 25px;
 	text-decoration:none;
