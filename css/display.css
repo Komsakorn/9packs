@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+}
+#profile{ 
+    width: 50px;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.content{
+    display: flex;
+    margin-top: 30px;
+    border-radius: 25px;
+    width: 600px;
+    padding: 32px 0px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+.boxed{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-box{
+    display: flex;
+}
