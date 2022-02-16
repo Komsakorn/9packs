@@ -33,6 +33,11 @@ body {
       display: none;
     }
   }
+  .box-2-inner{
+      display: flex;
+      flex-direction: column;
+      padding-left: 30px;
+  }
 
 .content-box-3{
     display: flex;
@@ -49,15 +54,18 @@ body {
     }
   }
 .boxed{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.upper-box{
     display:flex ;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 120px;
-    margin-right: 120px;
 }
 .content{
     display: flex;
+    justify-content: space-around;
 }
 #heart-rate{
     width: 50%;
@@ -74,9 +82,128 @@ body {
     width: 50%;
 }
 #o2bar{
-    width: 50%;
+    width: 80%;
 }
 #bloodpressure
 {
     width: 50%;
 }
+#spo2
+{
+    font-size: larger;
+}
+.low-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.low-content-box-1{
+    display: flex;
+    margin-top: 30px;
+    border-radius: 25px;
+    width: 300px;
+    padding: 26px 10px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+.distance{
+    font-weight: bold;
+    font-size: x-large;
+}
+#run{
+    width: 20%;
+}
+.lower-box-upper-text{
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content:space-around;
+    margin-bottom: 30px;
+}
+#place{
+    width: 10%;
+}
+#calories{
+    width: 20%;
+}
+.lower-box-lower-text{
+    display: flex;
+    flex-direction: row;
+}
+.lower-box{
+    display: flex;
+    flex-direction: column;
+}
+.first-row{
+    display: flex;
+    justify-content: space-around;
+}
+.second-row{
+    display: flex;
+    justify-content: space-around;
+}
+.low-content-box-2{
+    display: flex;
+    margin-top: 30px;
+    border-radius: 25px;
+    width: 300px;
+    padding: 26px 10px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+.low-content-box-3{
+    display: flex;
+    margin-top: 30px;
+    border-radius: 25px;
+    width: 300px;
+    padding: 26px 10px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+.low-content-box-4{
+    display: flex;
+    margin-top: 30px;
+    border-radius: 25px;
+    width: 300px;
+    padding: 26px 10px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+.low-content-box-5{
+    display: flex;
+    margin-top: 30px;
+    border-radius: 25px;
+    width: 300px;
+    padding: 26px 10px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+}.low-content-box-6{
+    display: flex;
+    margin-top: 30px;
+    border-radius: 25px;
+    width: 300px;
+    padding: 26px 10px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+@media (max-width: 600px) {
+    .low-content-box-2{
+      display: none;
+    }
+  }
+  @media (max-width: 900px) {
+    .low-content-box-3{
+      display: none;
+    }
+  }
+  @media (max-width: 600px) {
+    .low-content-box-5{
+      display: none;
+    }
+  }
+  @media (max-width: 900px) {
+    .low-content-box-6{
+      display: none;
+    }
+  }
