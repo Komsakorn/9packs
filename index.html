@@ -8,10 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/display.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Add Activity</title>
+    <title>Display</title>
 </head>
 <header class="site-header">
     <div class="wrapper site-header__wrapper">
@@ -52,17 +52,33 @@
     <script src="./js/header-13.js"></script>
 <body style="background:linear-gradient(to bottom, rgba(117 33 255) 5%, #ededed 100%);">
   <section class="boxed">
-    <div class="content">
-      <div class="content-box">
-        current 80bpm
-       </div>
-       <div class="content-box">
-        spo2
-      </div>
-      <div class="content-box">
-        mmhg
+    <div class="content-box-1">
+      <div class="content">
+        <img id="heart-rate" src="./image/index-pic/heartrate.png"/>
+        <div class="inner-text">
+        <text id="current">Current</text>
+        80 <text style="color: red;"> BPM </text>
+        </div>
       </div>
       </div>
+      <div class="content-box-2">
+        <div class="content">
+          <img id="o2" src="./image/index-pic/o2.png"/>
+          <div class="inner-text">
+          <text id="current">Current</text>
+          98% <img id="o2bar" src="./image/index-pic/o2bar.png"/>
+          </div>
+        </div>
+        </div>
+        <div class="content-box-3">
+          <div class="content">
+            <img id="bloodpressure" src="./image/index-pic/bloodp.png"/>
+            <div class="inner-text">
+            <text id="current">Current</text>
+            120/80 <text style="color: red;"> mmHg </text>
+            </div>
+          </div>
+          </div>
     </section>
 </body>
 </html>
