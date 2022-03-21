@@ -60,7 +60,7 @@ body {
 .upper-box{
     display:flex ;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 .content{
@@ -95,7 +95,7 @@ body {
 .low-content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .low-content-box-1{
     display: flex;
